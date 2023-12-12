@@ -1,7 +1,7 @@
 **OCIBucketObjectOPS**
 
 **Description**
-This Python script interacts with Oracle Cloud Infrastructure (OCI) Object Storage to perform basic operations on buckets and objects. It uses the OCI SDK for Python to connect to the OCI Object Storage service.
+This Python script is for Oracle Cloud Infrastructure (OCI) Object Storage to perform basic operations on buckets and objects. It uses the OCI SDK for Python to connect to the OCI Object Storage service.
 
 **Prerequisites**
 - Python installed (version 3.6 or above)
