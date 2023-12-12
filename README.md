@@ -9,6 +9,7 @@ This Python script interacts with Oracle Cloud Infrastructure (OCI) Object Stora
 - OCI configuration file ('~/.oci/config') or specify a custom configuration file using the '-c' option
 
 **Usage**
+
 OCIBucketObjectOPS.py [-h] [-c configFile] -b [bucket_name] -o [object_name] -g -p
     -h : help
     -c : Specify config file, the default config file is ~/.oci/config
@@ -26,6 +27,7 @@ OCIBucketObjectOPS.py [-h] [-c configFile] -b [bucket_name] -o [object_name] -g 
 - `-p, --put`: Upload the specified file as an object to the bucket.
 
 **Download an Object**
+
 python OCIBucketObjectOPS.py -c ~/.oci/config -b my_bucket -o my_object -g
 This command downloads the specified object (`my_object`) from the bucket (`my_bucket`).
 
