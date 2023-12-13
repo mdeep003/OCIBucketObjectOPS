@@ -1,6 +1,7 @@
 **OCIBucketObjectOPS**
 
 **Description**
+
 This Python script is for Oracle Cloud Infrastructure (OCI) Object Storage to perform basic operations on buckets and objects. It uses the OCI SDK for Python to connect to the OCI Object Storage service.
 
 **Prerequisites**
@@ -32,8 +33,10 @@ python OCIBucketObjectOPS.py -c ~/.oci/config -b my_bucket -o my_object -g
 This command downloads the specified object (`my_object`) from the bucket (`my_bucket`).
 
 **Upload an Object**
+
 python OCIBucketObjectOPS.py -c ~/.oci/config -b my_bucket -o local_file.txt -p
 This command uploads the local file `local_file.txt` as an object to the bucket (`my_bucket`).
 
 **Notes**
+
 - The default configuration file is `~/.oci/config`, but you can specify a custom file using the `-c` option.
